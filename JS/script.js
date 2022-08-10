@@ -35,6 +35,6 @@ function playComposition(songArray){
         setTimeout(() => {
             playSound(`key${songItem}`);
         }, wait);
-        wait +=250;
+        wait +=200;
     }
 }
